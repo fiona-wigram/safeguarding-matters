@@ -1,8 +1,21 @@
 /* Google font import for Unna and Manrope fonts */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* CSS Variables */
+:root {
+    --primary-font: "Unna", serif;
+    --secondary-font: "Manrope", sans-serif;
+    --primary-color: #310A31; /* dark purple */
+    --secondary-color: #847996; /* light purple */
+    --highlight-color: #88B7B5; /* pale blue */
+    --highlight-color-light: #a7cab1; /* pale green */
+    --highlight-color-lightest: #f4ecd6; /* lightest beige */
+}
+
+
 
 /* Global styles*/
+
 h1 {
     font-family: 'Unna', serif;
 }
