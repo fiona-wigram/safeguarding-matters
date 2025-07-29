@@ -1,3 +1,13 @@
+/* Google font import for Unna and Manrope fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* Global styles*/
 h1 {
-    color: blue;
+    font-family: 'Unna', serif;
 }
+
+p {
+    font-family: 'Manrope', sans-serif;
+}
+
