@@ -30,11 +30,20 @@ body {
 
 
 /* Hero section styles */
-
+/* Commented out as struggling to get background image to work- will try again later
 .hero {
-    background-color: white; /* Placeholder, replace with actual color */
+    background-image: url('../images/title-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-height: 600px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
-
+*/
 
 
 /* grid visualisation CSS for testing */
