@@ -73,6 +73,21 @@ body {
     text-align: center;
 }
 
+/* signs to watch for section styles */
+
+.signs-to-watch p {
+    color: var(--tertiary-color);
+}
+
+.signs-to-watch h3, h5 {
+    color: var(--tertiary-color);
+}
+
+.signs-to-watch li {
+    color: var(--tertiary-color);
+    font-family: 'Manrope', sans-serif;
+
+}
 
 /* Commented out as struggling to get background image to work- will try again later
 .hero {
