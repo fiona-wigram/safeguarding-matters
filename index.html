@@ -224,7 +224,7 @@ Usually involves an individual’s funds or resources being inappropriately used
     <section class="action-steps" id="steps">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mb-4">
                 <h2><i class="fa-solid fa-comments"></i> Action Steps</h2>
                 <p>Use these four simple steps if you suspect a safeguarding issue:</p>
                 <ol>
@@ -246,7 +246,7 @@ Usually involves an individual’s funds or resources being inappropriately used
     <!-- Contact us -->
     <section class="contact-us" id="contact-us">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
             <div class="col-12 col-md-6 mx-auto">
             <h2><i class="fa-solid fa-file-signature"></i> Contact Us</h2>
             <p>If you have any questions or need further information, please reach out to us. We have a dedicated team ready to assist you!</p>
@@ -254,19 +254,19 @@ Usually involves an individual’s funds or resources being inappropriately used
               <form class="row g-3">
   <div class="col-md-6">
     <label for="name" class="form-label">Name</label>
-    <input type="text" class="form-control" id="name">
+    <input type="text" class="form-control" id="name" name="name" required>
   </div>
   <div class="col-md-6">
     <label for="phonenumber" class="form-label">Phone Number</label>
-    <input type="number" class="form-control" id="phonenumber">
+    <input type="number" class="form-control" id="phonenumber" name="phonenumber" required>
   </div>
   <div class="col-12">
     <label for="email" class="form-label">Email</label>
-    <input type="email" class="form-control" id="email">
+    <input type="email" class="form-control" id="email" name="email" required>
   </div>
   <div class="mb-3">
   <label for="comment" class="form-label">Comment</label>
-  <textarea class="form-control" id="comment" placeholder="Please tell us about your safeguarding concern" rows="4"></textarea>
+  <textarea class="form-control" id="comment" name="comment" placeholder="Please tell us about your safeguarding concern" rows="4" required></textarea>
 </div> 
   <div class="form-check">
   <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1" checked>
@@ -281,7 +281,7 @@ Usually involves an individual’s funds or resources being inappropriately used
   </label>
 </div>
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
 
