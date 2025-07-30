@@ -89,6 +89,11 @@ body {
 
 }
 
+.signs-to-watch .accordion-button {
+    color: var(--tertiary-color);
+    background-color: var(--highlight-color-lightest);
+}
+
 /* Commented out as struggling to get background image to work- will try again later
 .hero {
     background-image: url('../images/title-image.png');
