@@ -99,7 +99,11 @@ section {
 .signs-to-watch .indicators-intro {
      color: var(--highlight-color-lightest);
 }
-
+/*
+.signs-to-watch img {
+    max-height: 227.5px;
+}
+*/
 /* Contact us styles */
 
 .contact-us { 
