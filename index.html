@@ -17,7 +17,7 @@
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <div>
-        <nav class="navbar navbar-expand-lg" data-bs-theme="light">
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
   <div class="container">
     <a class="navbar-brand" href="index.html"><i class="fa-solid fa-hand-holding-heart"></i></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,6 +61,7 @@
      </header>
 
     <!-- What is Safeguarding section -->
+     <main>
      <section class="safeguarding-info" id="what-is-safeguarding">
          <div class="container">
             <div class="row">
@@ -78,11 +79,11 @@
      <section class="signs-to-watch" id="signs">
       <div class="container">
         <h2><i class="fa-solid fa-face-sad-tear"></i> Signs to Watch For</h2>
-        <p>Recognizing the signs of abuse is crucial in safeguarding adults and children. Here are some key indicators:</p>
+        <p class="indicators-intro">Recognizing the signs of abuse is crucial in safeguarding adults and children. Here are some key indicators:</p>
         <div class="row">
 
     <!-- Physical Abuse -->
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xxl-3">
             <div class="card w-75 mb-3 mx-auto" style="width: 18rem;">
   <img src="/assets/images/physical.png" class="card-img-top" alt="cartoon image of a woman cradliing her head">
   <div class="card-body">
@@ -116,7 +117,7 @@
           </div>
 
           <!-- Psychological Abuse -->
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xxl-3">
                <div class="card w-75 mb-3 mx-auto" style="width: 18rem;">
   <img src="/assets/images/mental.png" class="card-img-top" alt="cartoon image of a adult comforting a child">
   <div class="card-body">
@@ -149,7 +150,7 @@
 </div>
           </div>
           <!-- Sexual Abuse -->
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xxl-3">
             <div class="card w-75 mb-3 mx-auto" style="width: 18rem;">
   <img src="/assets/images/sexual.png" class="card-img-top" alt="cartoon image of a adult looking sad out of a window">
   <div class="card-body">
@@ -183,7 +184,7 @@ Sexual acts which might be abusive include non-contact abuse such as looking, po
 </div>
           </div>
           <!-- Financial Abuse -->
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xxl-3">
                         <div class="card w-75 mb-3 mx-auto" style="width: 18rem;">
   <img src="/assets/images/financial.png" class="card-img-top" alt="cartoon image of a woman looking sad surrounded by a small group of people listening to her concerns">
   <div class="card-body">
@@ -223,7 +224,7 @@ Usually involves an individual’s funds or resources being inappropriately used
     <section class="action-steps" id="steps">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12">
                 <h2><i class="fa-solid fa-comments"></i> Action Steps</h2>
                 <p>Use these four simple steps if you suspect a safeguarding issue:</p>
                 <ol>
@@ -246,28 +247,49 @@ Usually involves an individual’s funds or resources being inappropriately used
     <section class="contact-us" id="contact-us">
         <div class="container">
             <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mx-auto">
             <h2><i class="fa-solid fa-file-signature"></i> Contact Us</h2>
-            <p>If you have any questions or need further information, please contact us.</p>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <p>If you have any questions or need further information, please reach out to us. We have a dedicated team ready to assist you!</p>
+            
+              <form class="row g-3">
+  <div class="col-md-6">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <div class="col-md-6">
+    <label for="phonenumber" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="phonenumber">
+  </div>
+  <div class="col-12">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="mb-3">
+  <label for="comment" class="form-label">Comment</label>
+  <textarea class="form-control" id="comment" placeholder="Please tell us about your safeguarding concern" rows="4"></textarea>
+</div> 
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1" checked>
+  <label class="form-check-label" for="radioDefault1">
+    Permission to contact you about your safeguarding concern
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2">
+  <label class="form-check-label" for="radioDefault2">
+    No permission to contact you about your safeguarding concern
+  </label>
+</div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+
+          
         </div>
         </div>
     </section>
-
+</main>
     <!-- Footer -->
     <!-- mt-auto added to push footer to the bottom of the page -->
 

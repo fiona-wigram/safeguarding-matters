@@ -29,7 +29,7 @@ p {
 
 body {
     background-color: var(--secondary-color);
-    ;
+    padding-top: 40px; /* Adjusted for fixed navbar */
 }
 
 /* Navbar styles */
@@ -94,20 +94,23 @@ body {
     background-color: var(--highlight-color-lightest);
 }
 
-/* Commented out as struggling to get background image to work- will try again later
-.hero {
-    background-image: url('../images/title-image.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 400px;
-    max-height: 600px;
-    display: flex;
-    align-items: center;
-    color: var(--primary-color);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+.signs-to-watch .indicators-intro {
+     color: var(--highlight-color-lightest);
 }
-*/
+
+/* Contact us styles */
+
+.contact-us { 
+   padding: 12px;
+}
+
+
+/* Footer styles */
+
+footer {
+    background-color: var(--tertiary-color);
+}
+
 
 
 /* grid visualisation CSS for testing */
