@@ -106,6 +106,18 @@ section {
    padding: 12px;
 }
 
+.custom-button {
+    background-color: var(--tertiary-color);
+    color: var(--highlight-color-lightest);
+    border: none;
+}
+
+.custom-button:hover {
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+    border: none;
+}
+
 
 /* Footer styles */
 
