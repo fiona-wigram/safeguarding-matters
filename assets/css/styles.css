@@ -13,8 +13,6 @@
     --highlight-color-lightest: #f4ecd6; /* lightest beige */
 }
 
-
-
 /* Global styles*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,8 +64,7 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 2%;
-    
+    margin: 2%;  
 }
 
 .hero-intro {
@@ -92,7 +89,6 @@ a {
 .signs-to-watch li {
     color: var(--tertiary-color);
     font-family: 'Manrope', sans-serif;
-
 }
 
 .signs-to-watch .accordion-button {
@@ -105,11 +101,7 @@ a {
         font-family: 'Manrope', sans-serif !important;
 }
 
-/*
-.signs-to-watch img {
-    max-height: 227.5px;
-}
-*/
+
 /* Contact us styles */
 
 .contact-us { 
@@ -143,19 +135,3 @@ footer {
         min-height: 358.75px;
     }
 }
-
-
-
-
-/* grid visualisation CSS for testing */
-/*
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
