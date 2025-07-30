@@ -7,6 +7,7 @@
     --secondary-font: "Manrope", sans-serif;
     --primary-color: #310A31; /* dark purple */
     --secondary-color: #847996; /* light purple */
+    --tertiary-color: #1a6e4f; /* dark green */
     --highlight-color: #88B7B5; /* pale blue */
     --highlight-color-light: #a7cab1; /* pale green */
     --highlight-color-lightest: #f4ecd6; /* lightest beige */
@@ -16,12 +17,14 @@
 
 /* Global styles*/
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Unna', serif;
+    color: var(--highlight-color-lightest); 
 }
 
 p {
     font-family: 'Manrope', sans-serif;
+    color: var(--highlight-color-lightest);
 }
 
 body {
@@ -29,6 +32,24 @@ body {
     ;
 }
 
+/* Navbar styles */
+
+.navbar {
+    background-color: var(--tertiary-color);
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--highlight-color-lightest);
+}
+
+.navbar-toggler {
+    border-color: var(--highlight-color-lightest);
+}
+
+.navbar-collapse {
+    background-color: var(--tertiary-color);
+}
 
 /* Hero section styles */
 
@@ -39,6 +60,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 2%;
+    
 }
 
 .hero-intro {
