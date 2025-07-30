@@ -26,10 +26,27 @@ p {
 
 body {
     background-color: var(--secondary-color);
+    ;
 }
 
 
 /* Hero section styles */
+
+.hero {
+    background-image: url("../images/background.png");
+    background-color: #a7cab1; /* pale green */
+    padding: 5% 7%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    color:#f4ecd6;
+}
+
+
+
 /* Commented out as struggling to get background image to work- will try again later
 .hero {
     background-image: url('../images/title-image.png');
