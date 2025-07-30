@@ -21,19 +21,22 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
+<!-- classes on body to ensure the footer stays at the bottom -->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <div>
-        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><i class="fa-solid fa-hand-holding-heart"></i></a>
+    <a class="navbar-brand" href="index.html">
+      <img src="/assets/images/social-support-logo-light.png" alt="Safeguarding Matters Logo" class="logo">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html#hero">Home</a>
+          <a class="nav-link" href="index.html#hero">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#what-is-safeguarding">What is Safeguarding?</a>
@@ -302,7 +305,7 @@ Usually involves an individual’s funds or resources being inappropriately used
 
     <footer class="mt-auto">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                     <p>&copy; 2023 Safeguarding Matters. All rights reserved.</p>
             </div>
         </div>
