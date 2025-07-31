@@ -1,5 +1,17 @@
-# safeguard## Features:
+# safeguarding matters
 
+
+## Description
+The primary objective of the website was to provide external users with clear, accessible information about safeguarding practices. The content was designed to highlight key indicators that may suggest an individual requires safeguarding support, along with guidance on how to respond appropriately. By presenting this information in a structured and intuitive format, the site aimed to raise awareness and promote confident, informed action in safeguarding situations.
+
+## User Stories:
+**As a concerned individual**, I want to quickly understand what safeguarding means, so I feel confident knowing whether a situation is cause for concern.<br/>
+**As a visitor who suspects abuse or neglect**, I want to learn the common signs to watch for, so I can make an informed decision about whether to report it.<br/>
+**As someone who wants to help**, I want simple action steps listed clearly, so I can respond appropriately in a safeguarding situation.<br/>
+
+The website was created using HTML, CSS and Bootstrap. Fonts were sourced from GoogleFonts and Icons were used from Font Awesome.
+
+## Features:
 ### Navigation and hero section
 ![Navigation and hero section](assets/images/nav_hero.png)
 
@@ -15,30 +27,7 @@
 ![Action steps section](assets/images/action_steps.png)
 
 ### Contact and Footer
-![Contact and footer section](assets/images/contact_footer.png)Description
-The primary objective of the website was to provide external users with clear, accessible information about safeguarding practices. The content was designed to highlight key indicators that may suggest an individual requires safeguarding support, along with guidance on how to respond appropriately. By presenting this information in a structured and intuitive format, the site aimed to raise awareness and promote confident, informed action in safeguarding situations.
-
-## User Stories:
-**As a concerned individual**, I want to quickly understand what safeguarding means, so I feel confident knowing whether a situation is cause for concern.<br/>
-**As a visitor who suspects abuse or neglect**, I want to learn the common signs to watch for, so I can make an informed decision about whether to report it.<br/>
-**As someone who wants to help**, I want simple action steps listed clearly, so I can respond appropriately in a safeguarding situation.<br/>
-
-The website was created using HTML, CSS and Bootstrap. Fonts were sourced from GoogleFonts and Icons were used from Font Awesome.
-
-## Features:
-Navigation and hero section
-('/assets/images/nav_hero.png')
-Description outlining what safeguarding is
-(/assets/images/what_is_safeguarding.png)
-Signs
-(/assets/images/signs_cards.png)
-(/assets/images/single_card.png)
-(/assets/images/possible_indicators.png)
-Steps
-(/assets/images/action_steps.png)
-Contact and Footer
-(/assets/images/contact_footer.png)
-Footer
+![Contact and footer section](assets/images/contact_footer.png)
 
 ## Future features
 To make the site even more useful, I’d like to add a resources section with links to other websites that offer helpful information on different safeguarding topics. I’m also planning to expand the contact section to include phone numbers and email addresses for emergency services and organisations that support areas like domestic violence, children’s services, and older adults. These additions would make it easier for users to find support and learn more if they need it.
