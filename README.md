@@ -51,7 +51,7 @@ I used AI to help assist with the development of the project. This included:
 - Help with overall problem-solving
 
 ## Testing and validation
-I tested the desktop view of the website using lighthouse. The inital score for the contrast between the background text and 
+I tested the desktop view of the website using lighthouse. The inital score for the contrast between the colours of the background and the text was very poor. So changes were made to the overall background colors for the site and also a darker transparent background was placed behind the text to improve readability.
 
 
 
