@@ -1,5 +1,21 @@
-# safeguarding-matters
-# Description
+# safeguard## Features:
+
+### Navigation and hero section
+![Navigation and hero section](assets/images/nav_hero.png)
+
+### Description outlining what safeguarding is
+![What is safeguarding section](assets/images/what_is_safeguarding.png)
+
+### Signs
+![Signs cards overview](assets/images/signs_cards.png)
+![Single card example](assets/images/single_card.png)
+![Possible indicators](assets/images/possible_indicators.png)
+
+### Steps
+![Action steps section](assets/images/action_steps.png)
+
+### Contact and Footer
+![Contact and footer section](assets/images/contact_footer.png)Description
 The primary objective of the website was to provide external users with clear, accessible information about safeguarding practices. The content was designed to highlight key indicators that may suggest an individual requires safeguarding support, along with guidance on how to respond appropriately. By presenting this information in a structured and intuitive format, the site aimed to raise awareness and promote confident, informed action in safeguarding situations.
 
 ## User Stories:
@@ -29,7 +45,8 @@ To make the site even more useful, I’d like to add a resources section with li
 
 ## Wireframes
 Wireframe showing the initial website design for Safeguarding Matters. The layout features a navigation bar at the top, a hero section with a prominent heading, and clearly defined sections for description, signs, steps, contact information, and footer. The wireframe uses soft colors and rounded shapes to create a calm, welcoming atmosphere. Text in the wireframe includes section labels such as Navigation, Hero, Description, Signs, Steps, Contact, and Footer. The overall tone is professional and reassuring, emphasizing clarity and accessibility.
-(/assets/images/safeguarding-matter-wireframe.jpg)
+
+![Safeguarding Matters Wireframe](assets/images/safeguarding-matter-wireframe.jpg)
 
 
 ## Design choices and Typography 
