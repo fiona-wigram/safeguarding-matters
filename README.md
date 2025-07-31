@@ -53,6 +53,15 @@ I used AI to help assist with the development of the project. This included:
 ## Testing and validation
 I tested the desktop view of the website using lighthouse. The inital score for the contrast between the colours of the background and the text was very poor. So changes were made to the overall background colors for the site and also a darker transparent background was placed behind the text to improve readability.
 
+A lot of time was also spent trying to increase the performance score of the site. The images used were advised by lighthouse as to being to big. Eventually changing the files of the images from png to webp improved the score drastically.
+
+Lighthpuse score with images as png:
+![Lighthouse score before](assets/images/lighthouse.png)
+
+Final lighthouse score:
+![Final lighthouse score](assets/images/lighthouse2.png)
+
+The code was also run through a HTML and CSS validator and any code errors were corrected.
 
 
 ## Refection
