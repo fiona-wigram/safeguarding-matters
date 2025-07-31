@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: 'Manrope', sans-serif;
     color: var(--highlight-color-lightest);
+    
 }
 
 body {
@@ -37,6 +38,16 @@ section {
 a {
     color: var(--highlight-color-lightest);
 }
+
+.shade {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--highlight-color-lightest);
+    text-align: center;
+}
+
 /* Navbar styles */
 
 .navbar {
@@ -61,7 +72,7 @@ a {
 .hero {
     background-image: url("../images/background.png");
     background-color: #a7cab1; /* pale green */
-    padding: 5% 7%;
+    padding: 7% 7%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
