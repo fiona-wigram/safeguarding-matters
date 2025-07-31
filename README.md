@@ -41,6 +41,8 @@ Wireframe showing the initial website design for Safeguarding Matters. The layou
 ## Design choices and Typography 
 In the planning stage, I looked at other websites for inspiration for the overall theme and feel of the website. I wanted the website to have a calm and inviting feel while also still remaining professional due to the serious content of the website. This is the initial colour palette I chose for the project:
 
+![The inital colour palette](assets/images/safeguarding-matters-palette.png) 
+
 ## AI Usage:
 
 I used AI to help assist with the development of the project. This included:
