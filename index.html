@@ -75,12 +75,20 @@
      <section class="safeguarding-info section" id="what-is-safeguarding">
          <div class="container shade">
             <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
              <h2><i class="fa-solid fa-child-reaching"></i> What is Safeguarding?</h2>
              <p>Safeguarding is the process of protecting individuals—particularly children, young people, and vulnerable adults—from harm, abuse, neglect, and exploitation. It involves creating safe environments where people can thrive without fear, as well as putting in place measures to prevent issues before they arise. Effective safeguarding ensures that everyone, regardless of age, background, or ability, is treated with dignity and respect, and that their wellbeing is always a priority.</p>
              <p>It’s not just about recognizing when something is wrong; safeguarding also means knowing how to respond. This includes identifying warning signs—such as changes in behavior, unexplained injuries, or signs of emotional distress—and taking appropriate action, whether that’s having a conversation, seeking advice, or reporting a concern. Safeguarding is a shared responsibility, and by understanding what it involves, we can all play a role in helping others stay safe and feel supported.</p>
             </div>
-            <div class="col-12 col-md-6"><img src="assets/images/welcome-image.png" class="img-fluid" alt="Welcome image showing smiling people in front of a house with caring hands overhead"></div>
+            <div class="col-12 col-lg-6">
+              <picture>
+                <!-- If the viewpoint is wider than 1200px -->
+                <source media="(min-width: 1200px)" srcset="assets/images/welcome-image_large.png">
+                <!-- If the viewpoint is smaller than 768px -->
+                <source media="(max-width: 767px)" srcset="assets/images/welcome-image_small.png">
+                <!-- Fallback image for browsers that don't support picture element -->
+                <img src="assets/images/welcome-image_medium.png" class="img-fluid" alt="Welcome image showing smiling people in front of a house with caring hands overhead">
+              </picture>
             </div>
           </div>
      </section>
@@ -236,8 +244,17 @@ Usually involves an individual’s funds or resources being inappropriately used
     <section class="action-steps" id="steps">
         <div class="container shade">
             <div class="row">
-              <div class="col-12 col-lg-6 mb-4"><img src="assets/images/action-steps-image.png" class="img-fluid" alt="Adult and two children smiling"></div>
-                <div class="col-12 col-lg-6 mb-4">
+              <div class="col-12 col-lg-6 mb-4">
+                <picture>
+                <!-- If the viewpoint is wider than 1200px -->
+                <source media="(min-width: 1200px)" srcset="assets/images/action-steps-image_large.png">
+                <!-- If the viewpoint is smaller than 768px -->
+                <source media="(max-width: 767px)" srcset="assets/images/action-steps-image_small.png">
+                <!-- Fallback image for browsers that don't support picture element -->
+                <img src="assets/images/action-steps-image_medium.png" class="img-fluid" alt="Adult and two children smiling">
+              </picture>
+              </div>
+              <div class="col-12 col-lg-6 mb-4">
                 <h2><i class="fa-solid fa-comments"></i> Action Steps</h2>
                 <p>Responding to safeguarding concerns is crucial because timely action can protect someone from further harm and ensure they receive the support they need. It shows that we take our responsibility seriously and reinforces a culture where everyone feels safe, seen, and valued. Use these three simple steps if you suspect a safeguarding issue:</p>
                 <ol>
