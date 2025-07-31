@@ -91,6 +91,9 @@ a {
     color: var(--tertiary-color);
     font-family: 'Manrope', sans-serif;
 }
+
+
+
 /*
 .signs-to-watch .accordion-button {
     color: var(--tertiary-color);
@@ -147,5 +150,16 @@ footer {
 @media  screen and (min-width: 768px) {
     #signs .card-body {
         min-height: 358.75px;
+    }
+
+    #signs .line2 {
+        min-height: 476.48px;
+    }
+}
+
+/* Extra extra large desktops (1400px and up) */
+@media screen and (min-width: 1400px) {
+    #signs .card-body {
+        min-height: 537.2px;
     }
 }
