@@ -75,4 +75,6 @@ Looking back on this project, I’m not fully satisfied with the final website. 
 In future projects, I aim to improve the prioritisation of my time and tasks. A significant amount of effort went into researching colour palettes, typography, and generating AI-based imagery — many of which were ultimately excluded from the final design. While this research was valuable, it took away time from building the site.<br/>
 
 One key takeaway is the importance of a focused and sequential workflow. During this build, I jumped between sections, which disrupted my momentum and made it harder to keep track of my progress. I believe I could produce a cleaner and more cohesive site by completing each section methodically before moving on.
+
+With more time, I would have liked to have edited the cards in the 'signs to watch' section so there isn't as much empty space on larger screens. I would have also liked to adjust the amount of white space above the possible indicator buttons on the larger screen sizes. It would have also been nice to have included the resources section I had initally planned for at the start of the project. I think it would have increased usefulness of the website to visitors.
  
