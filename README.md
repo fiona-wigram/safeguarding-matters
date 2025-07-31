@@ -11,7 +11,7 @@ The website was created using HTML, CSS and Bootstrap. Fonts were sourced from G
 
 ## Features:
 Navigation and hero section
-(/assets/images/nav_hero.png)
+('/assets/images/nav_hero.png')
 Description outlining what safeguarding is
 (/assets/images/what_is_safeguarding.png)
 Signs
