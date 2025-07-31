@@ -51,6 +51,8 @@ I used AI to help assist with the development of the project. This included:
 - Help with overall problem-solving
 
 ## Testing and validation
+I tested the desktop view of the website using lighthouse. The inital score for the contrast between the background text and 
+
 
 
 ## Refection
@@ -59,3 +61,5 @@ Looking back on this project, I’m not fully satisfied with the final website. 
 In future projects, I aim to improve the prioritisation of my time and tasks. A significant amount of effort went into researching colour palettes, typography, and generating AI-based imagery—many of which were ultimately excluded from the final design. While this exploration was valuable, it came at the cost of progress on core development.<br/>
 
 One key takeaway is the importance of a focused and sequential workflow. During this build, I jumped between sections, which disrupted my momentum and made it harder to track progress. I believe I could produce a cleaner and more cohesive site by completing each section methodically before moving on.
+
+AI reflection - 

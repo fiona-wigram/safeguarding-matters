@@ -10,8 +10,8 @@
     --tertiary-color: #1a6e4f; /* dark green */
     --highlight-color: #88B7B5; /* pale blue */
     --highlight-color-light: #a7cab1; /* pale green */
-    --highlight-color-lightest: white;
-     /* #f4ecd6;  lightest beige */
+    --highlight-color-lightest: #f4ecd6;
+    
 }
 
 /* Global styles*/
@@ -121,16 +121,6 @@ a {
     font-family: 'Manrope', sans-serif;
 }
 
-
-
-
-/*
-.signs-to-watch .accordion-button {
-    color: var(--tertiary-color);
-    background-color: var(--highlight-color-lightest); 
-}*/
-
-
 .signs-to-watch .indicators-intro {
      color: var(--highlight-color-lightest);
 }
@@ -161,8 +151,6 @@ ol {
 .form-label, .form-check-label {
     color: var(--highlight-color-lightest)
 }
-
-
 
 /* Footer styles */
 
