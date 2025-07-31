@@ -52,7 +52,8 @@ I used AI to help assist with the development of the project. This included:
 - Spot and fix errors in the coding content
 - Help with overall problem-solving
 
-AI reflection - Overall the use of AI, especially for errors, was a handy and useful tool to help create the website. I found there were a few limitations however when using it. Copilot would present me code that contained errors and I did have to refine what I asked it to do to get the intended result.
+AI reflection - Overall the use of AI, especially for errors, was a handy and useful tool to help create the website. For example, i had issues with how i had initally written the code for the images in HTML, Copilot easily spotted my mistake. It was a shame i didnt ask for its help earlier as i wasted time trying to work out what the error was myself. <br>
+I did experience some drawbacks using AI, for example copilot would suggest I use code that contained syntax errors. Another issue I personally found initially was I was to broad and vague with my initial requests with it. As a result I wasted time refining what I asked it to do to get the intended result or answer.
 
 ## Testing and validation
 I tested the desktop view of the website using lighthouse. The inital score for the contrast between the colours of the background and the text was very poor. So changes were made to the overall background colors for the site and also a darker transparent background was placed behind the text to improve readability.
@@ -69,9 +70,9 @@ The code was also run through a HTML and CSS validator and any code errors were 
 
 
 ## Refection
-Looking back on this project, I’m not fully satisfied with the final website. It feels incomplete and lacks the cohesive visual quality I had initially envisioned. I believe this outcome was largely due to challenges with time management and a lack of structured planning.<br/>
+Looking back on this project, I’m not fully satisfied with the final website. It feels incomplete and lacks the cohesive visual quality I had initially envisioned. I think this outcome was largely due to challenges with time management and a lack of structured planning.<br/>
 
-In future projects, I aim to improve the prioritisation of my time and tasks. A significant amount of effort went into researching colour palettes, typography, and generating AI-based imagery—many of which were ultimately excluded from the final design. While this exploration was valuable, it came at the cost of progress on core development.<br/>
+In future projects, I aim to improve the prioritisation of my time and tasks. A significant amount of effort went into researching colour palettes, typography, and generating AI-based imagery — many of which were ultimately excluded from the final design. While this research was valuable, it took away time from building the site.<br/>
 
-One key takeaway is the importance of a focused and sequential workflow. During this build, I jumped between sections, which disrupted my momentum and made it harder to track progress. I believe I could produce a cleaner and more cohesive site by completing each section methodically before moving on.
+One key takeaway is the importance of a focused and sequential workflow. During this build, I jumped between sections, which disrupted my momentum and made it harder to keep track of my progress. I believe I could produce a cleaner and more cohesive site by completing each section methodically before moving on.
  
