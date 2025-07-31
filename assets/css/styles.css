@@ -65,7 +65,9 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 2%;  
+    margin: 2% auto;  
+    max-width: 1000px;
+   
 }
 
 .hero-intro {
@@ -79,6 +81,22 @@ a {
 
 /* signs to watch for section styles */
 
+.signs-to-watch .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.signs-to-watch .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.signs-to-watch .accordion {
+    margin-top: auto;
+}
+
 .signs-to-watch p {
     color: var(--tertiary-color);
 }
@@ -91,6 +109,7 @@ a {
     color: var(--tertiary-color);
     font-family: 'Manrope', sans-serif;
 }
+
 
 
 
@@ -154,6 +173,11 @@ footer {
 
     #signs .line2 {
         min-height: 476.48px;
+    }
+
+    img {
+        max-width: 700px;
+        height: auto;
     }
 }
 
