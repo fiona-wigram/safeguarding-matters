@@ -187,7 +187,7 @@ footer {
 /* Extra large devices (screens 1200px and up)*/
 @media screen and (min-width: 1200px) {
     .hero {
-        background-image: url("../images/background_large.png");
+        background-image: url("../images/background_large.webp");
     }
 }
 
