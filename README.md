@@ -52,15 +52,17 @@ I used AI to help assist with the development of the project. This included:
 - Spot and fix errors in the coding content
 - Help with overall problem-solving
 
+AI reflection - Overall the use of AI, especially for errors, was a handy and useful tool to help create the website. I found there were a few limitations however when using it. Copilot would present me code that contained errors and I did have to refine what I asked it to do to get the intended result.
+
 ## Testing and validation
 I tested the desktop view of the website using lighthouse. The inital score for the contrast between the colours of the background and the text was very poor. So changes were made to the overall background colors for the site and also a darker transparent background was placed behind the text to improve readability.
 
 A lot of time was also spent trying to increase the performance score of the site. The images used were advised by lighthouse as to being to big. Eventually changing the files of the images from png to webp improved the score drastically.
 
-Lighthpuse score with images as png:
+Lighthouse score with images as png: <br>
 ![Lighthouse score before](assets/images/lighthouse.png)
 
-Final lighthouse score:
+Final lighthouse score: <br>
 ![Final lighthouse score](assets/images/lighthouse2.png)
 
 The code was also run through a HTML and CSS validator and any code errors were corrected.
@@ -72,5 +74,4 @@ Looking back on this project, I’m not fully satisfied with the final website. 
 In future projects, I aim to improve the prioritisation of my time and tasks. A significant amount of effort went into researching colour palettes, typography, and generating AI-based imagery—many of which were ultimately excluded from the final design. While this exploration was valuable, it came at the cost of progress on core development.<br/>
 
 One key takeaway is the importance of a focused and sequential workflow. During this build, I jumped between sections, which disrupted my momentum and made it harder to track progress. I believe I could produce a cleaner and more cohesive site by completing each section methodically before moving on.
-
-AI reflection - 
+ 
