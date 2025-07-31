@@ -22,6 +22,8 @@ Footer
 To make the site even more useful, I’d like to add a resources section with links to other websites that offer helpful information on different safeguarding topics. I’m also planning to expand the contact section to include phone numbers and email addresses for emergency services and organisations that support areas like domestic violence, children’s services, and older adults. These additions would make it easier for users to find support and learn more if they need it.
 
 ## Wireframes
+![Wireframe showing the initial website design for Safeguarding Matters. The layout features a navigation bar at the top, a hero section with a prominent heading, and clearly defined sections for description, signs, steps, contact information, and footer. The wireframe uses soft colors and rounded shapes to create a calm, welcoming atmosphere. Text in the wireframe includes section labels such as Navigation, Hero, Description, Signs, Steps, Contact, and Footer. The overall tone is professional and reassuring, emphasizing clarity and accessibility.](/assets/images/safeguarding-matter-wireframe.jpg)
+
 
 ## Design choices and Typography 
 In the planning stage, I looked at other websites for inspiration for the overall theme and feel of the website. I wanted the website to have a calm and inviting feel while also still remaining professional due to the serious content of the website. This is the initial colour palette I chose for the project:
